@@ -14,6 +14,15 @@ public class Main {
 
         out.println("Вариант 10\n");
         out.println("Список задач:");
+        out.println("1. Квадрат и Сторона Квадрата (1.3)");
+        out.println("2. Бинарное дерево (2.4)");
+        out.println("3. Замкнутая ломаная (3.2)");
+        out.println("4. Фигуры (4.4)");
+        out.println("5. Измерение длины (5.5)");
+        out.println("6. Объединение в ломаную (5.7)");
+        out.println("7. Сравнение ломаных линий (6.4)");
+        out.println("8. Возведение в степень (7.3)");
+        out.println("9. Клонирование точки (8.4)");
         out.print("Введите номер задания: ");
         String choice = scanner.next();
 
@@ -187,6 +196,8 @@ public class Main {
                 System.out.println("Один и тот же объект? " + (originalPoint == clonedPoint));
                 System.out.println("Равны по значению? " + originalPoint.equals(clonedPoint));
             } break;
+
+            default: out.println("Такой задачи нет в списке.");
         }
     }
 
